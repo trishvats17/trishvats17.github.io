@@ -17,9 +17,9 @@ export default function Home() {
 
       <main className="bg-slate-100	 font-poppins">
         <section className='flex justify-center lg:pr-20 lg:pl-20 -mt-3'>
-          <section className='flex flex-wrap p-10 justify-center'>
+          <section className='flex flex-wrap p-5 justify-center'>
               <div className='flex flex-wrap justify-center -mb-3'>
-                <Card isHoverable variant="bordered" css={{ w:350, h:350, margin:7 }} >
+                <Card isHoverable variant="bordered" css={{ w:340, h:340, margin:7 }} >
                 <Card.Body>
                 <Text className=''><b className='pl-2'>{home1.name}</b></Text>
                 <Text className='pl-2'>{home1.tag}</Text>
@@ -36,7 +36,7 @@ export default function Home() {
                   
                 return(
 
-                <Card isHoverable className='cursor-pointer' variant="bordered" key={i.id} css={{ w:352, h:352, margin:7  }}>
+                <Card isHoverable className='cursor-pointer' variant="bordered" key={i.id} css={{ w:340, h:340, margin:7  }}>
                 <Card.Body onClick={() => router.push(`${i.route}`) } className={i.color}>
                   <div className='pt-3'>
                     <Image
@@ -45,7 +45,7 @@ export default function Home() {
                     src={i.icon}
                     alt="Default Image"
                   />
-                  <div className='pt-7'>
+                  <div className='pt-4'>
                     <Text><b className='pl-2 text-white text-base'>{i.heading}</b></Text>
                     <div className='bg-white mt-2 mb-1'><Card.Divider/></div>
                     <Text color='white' className='pl-2 text-xs'>{i.desc}</Text>
