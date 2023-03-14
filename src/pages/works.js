@@ -3,6 +3,8 @@ import { Card, Text, Image, Link, Segment, Grid, Divider, Row } from "@nextui-or
 import { worklogo, works } from '@/content';
 import Nav from './Nav';
 
+
+
 function Works() {
     return (
       <>
@@ -15,7 +17,7 @@ function Works() {
       </Head>
       <main className="bg-yellow-600 font-poppins">
            <section>
-            <Nav acolor='text-white' wcolor='text-black' kcolor='text-white' ccolor='text-white' mwcolor='text-yellow-900'/>
+           <Nav acolor='text-black' wcolor='text-white' kcolor='text-black' ccolor='text-black'/>
             <div className='bg-white'><Card.Divider/></div>
             </section>
             <section className='bg-yellow-600 lg:pt-40 lg:pr-80 lg:pl-80 pl-10 pr-10 pt-16'>

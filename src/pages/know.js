@@ -3,6 +3,7 @@ import { Card, Text, Image, Link, Segment, Grid, Divider, Row } from "@nextui-or
 import { knowmore, worklogo, works } from '@/content';
 import Nav from './Nav';
 
+
 function Know() {
     return (
       <>
@@ -15,7 +16,7 @@ function Know() {
       </Head>
       <main className="bg-blue-600 font-poppins">
           <section>
-              <Nav acolor='text-white' wcolor='text-white' kcolor='text-black' ccolor='text-white' mkcolor='text-blue-600'/>
+          <Nav acolor='text-black' wcolor='text-black' kcolor='text-white' ccolor='text-black'/>
               <div className='bg-white'><Card.Divider/></div>
               </section>
               <section className='bg-blue-600 pt-16 lg:pt-40 lg:pr-72 lg:pl-72 pl-10 pr-10 lg:pb-20'>
