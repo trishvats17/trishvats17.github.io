@@ -26,7 +26,7 @@ function Know() {
 
               {knowmore.map(i => {
                 return(
-                    <section className='bg-blue-600 lg:pl-40 pl-10 lg:pr-40 lg:flex lg:pb-20 pt-10' key={i.id}>
+                    <section className='bg-blue-600 lg:pl-40 pl-5 pr-5 lg:pr-40 lg:flex lg:pb-20 pt-10' key={i.id}>
                         <div className='w-60'>
                             <div className='flex'>
                             <div className='flex'>
