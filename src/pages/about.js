@@ -21,7 +21,8 @@ function About() {
               <Nav acolor='text-white' wcolor='text-black' kcolor='text-black' ccolor='text-black'/>
                 <div className='bg-white'><Card.Divider/></div>
                 </section>
-                <section className='bg-teal-900 lg:pt-40 lg:pr-80 lg:pl-80 pl-10 pr-10 pt-16'>
+
+                <section className='bg-teal-900 lg:pt-40 lg:pr-80 lg:pl-80 pl-5 pr-10 pt-16'>
                 <Text><b className='text-white flex text-center text-3xl lg:text-5xl' >{aboutfronttext.desc}</b></Text>
                 </section>
                 <section className='bg-teal-900 lg:pt-20 lg:pb-60 pt-10 pr-20 pl-20 flex justify-center'>
@@ -32,7 +33,7 @@ function About() {
                     />
                 </section>
 
-               <section className='bg-teal-900 lg:pl-40 pt-5 pl-10 lg:pb-10 pb-5 lg:flex grid lg:grid-cols-2'>
+               <section className='bg-teal-900 lg:pl-40 pt-5 pl-5 lg:pb-10 pb-5 lg:flex grid lg:grid-cols-2'>
                <div className="lg:w-80">
                         <Text><b className='text-white flex text-start text-1xl lg:text-3xl text-3xl ' >{about1.main_heading}</b></Text>                   
                 </div>
@@ -43,7 +44,7 @@ function About() {
         
                     return(
                       <section key={i.id}>
-                        <section className='bg-teal-900 lg:pl-40 pl-10 flex'>
+                        <section className='bg-teal-900 lg:pl-40 pl-5 flex'>
                         <div className="grid lg:grid-cols-2">
                         <div className='pr-6'>
                                   <Text><b className='text-white flex text-start text-2xl pb-4 lg:text-xl lg:pt-3' >{i.heading}</b></Text>
@@ -67,8 +68,8 @@ function About() {
                       )  
                     })}
                </section>   
-               <section className='bg-teal-900 lg:pl-40 pl-10 flex'>
-               <div className='pt-5 '>
+               <section className='bg-teal-900 lg:pl-40 pl-5 flex'>
+               <div className='pt-2 '>
                 <Text><b className='text-white text-3xl lg:text-3xl' >IF MY EXPERIENCE RESONATES WITH YOU. </b></Text>
                 <button className="rounded-full bg-white p-3 mb-20 mt-2 hover:bg-black hover:text-white">Reach Out!</button>
                 </div>
