@@ -28,34 +28,19 @@ function About() {
                     <Image
                     className=''
                     src="trishabh.svg"
-                    alt="Picture of the author"
-                 
+                    alt="Picture of the author"      
                     />
                 </section>
-                
-               <section className='bg-teal-900 lg:pl-40 pt-10 pl-10 flex'>
-               <div className="grid lg:grid-cols-2">
-               <div className='pr-10'>
-                        <Text><b className='text-white flex text-start text-1xl lg:text-3xl text-3xl' >{about1.main_heading}</b></Text>
-                        <Text><b className='text-white flex text-start text-2xl pb-4 lg:text-xl lg:pt-10 pt-5' >{about1.heading}</b></Text>
-                        <Text color='#fff' className=' flex text-start text-1xl lg:text-x lg:pt-2 lg:pr-60' >{about1.desc}</Text>
-                </div>
-                <div className='lg:flex justify-center lg:pr-60 lg:-mt-20 lg:visible hidden'>
-                    <Image
-                    src="about1.svg"
-                    alt="Picture of the author"
-                    />
-                </div>
-                </div>
-               </section>
-               <section className='bg-teal-900'>
-               <img className='lg:ml-32 lg:pt-10 pl-10 pt-5 pb-5 lg:visible invisible lg:flex hidden' src='div.svg' alt='.'/>
-               <img className=' lg:invisible visible lg:hidden pl-11 p-4' src='div-sm.svg' alt='.'/>
-               </section>
 
+               <section className='bg-teal-900 lg:pl-40 pt-5 pl-10 lg:pb-10 pb-5 lg:flex grid lg:grid-cols-2'>
+               <div className="lg:w-80">
+                        <Text><b className='text-white flex text-start text-1xl lg:text-3xl text-3xl ' >{about1.main_heading}</b></Text>                   
+                </div>
+               </section>
+               
                <section>
                   {about.map(i => {
-                    
+        
                     return(
                       <section key={i.id}>
                         <section className='bg-teal-900 lg:pl-40 pl-10 flex'>
@@ -63,10 +48,11 @@ function About() {
                         <div className='pr-6'>
                                   <Text><b className='text-white flex text-start text-2xl pb-4 lg:text-xl lg:pt-3' >{i.heading}</b></Text>
                                   <Text color='#fff' className=' flex text-start text-1xl lg:text-x lg:pt-2 lg:pr-60' >{i.desc}</Text>
-                                  <img className='lg:pt-4 lg:flex lg:visible hidden' src='div.svg' alt='.'/>
-                                  <img className='lg:invisible lg:hidden visible pl-1 p-4' src='div-sm.svg' alt='.'/>
-                        </div>
-                          
+                                  <Image width={2} className=' float-left lg:pt-4 lg:flex lg:visible hidden' src='div.svg' alt='.'/>
+                                  <Image width={2} className=' float-left flex visible lg:hidden' src='div-sm.svg' alt='.'/>
+
+                        </div> 
+                           
                     <div className='lg:flex justify-center lg:pr-60 lg:visible hidden'>
                     <Image
                     src={i.image}

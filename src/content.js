@@ -59,6 +59,13 @@ export const about1 = {
 
 export const about = [
     {
+        id:'0',
+        heading:"How it Started?",
+        desc:"I Initially enrolled in college to pursue Mobile Application Development. but halfway through my senior year, I discovered that coding was not my passion. However, I remained determined to create digital products, and that's when I stumbled upon UX/UI design. Science then, I have been entirely self-taught and have gained 2 years of experience in this field.",
+        hidden:'',//write hidden if image is hidden
+        image:'about1.svg', //leave blank if image is hidden or put link or local file name with extension
+    },
+    {
         id:'1',
         heading:"How it’s going?",
         desc:"I have gained practical experience through a few internships, including a UX Designer Internship at SAASPECT from July 2021 and a Product Designer Internship at Business Innovation Labs from October 2021. I am currently employed as a full-time Product Designer at AvairSense, where I am applying and expanding my skills.",

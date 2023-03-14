@@ -30,7 +30,7 @@ function Contact() {
                     <section className='bg-yellow-900 lg:pb-20 w-80' key={i.id}>
                           <Text color='white' className='pt-3 text-2xl'>{i.social}</Text>
                           <Text color='white' className='pt-3 text-sm h-20'>{i.desc}</Text>
-                          <a href={i.linkifany}><BsArrowRightCircle className='h-10 w-10 pr-4 text-white cursor-pointer hover:text-black'/></a>
+                          <Link href={i.linkifany}><BsArrowRightCircle className='h-10 w-10 pr-4 text-white cursor-pointer hover:text-black'/></Link>
                     </section>
                 )  
                 })}

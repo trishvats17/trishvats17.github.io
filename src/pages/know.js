@@ -29,14 +29,16 @@ function Know() {
                     <section className='bg-blue-600 lg:pl-40 pl-10 lg:pr-40 lg:flex lg:pb-20 pt-10' key={i.id}>
                         <div className='w-60'>
                             <div className='flex'>
-                            <img src={i.logo} width={50} height={50}/>
+                            <div className='flex'>
+                              <Image src={i.logo} width={50} height={50} alt='icon'/>
+                            </div>
                             <Text color='white' className='ml-4 mt-2'><b>{i.topic}</b></Text>
                             </div>
                             <div className='wrap lg:pt-5'>
                             <Text><b className='text-white text-3xl lg:text-4xl' >{i.what}</b></Text>
                             </div>
-                            <div className='bg-blue-600 pt-10 lg:flex lg:visible hidden'>
-                            <img src='div.svg'/>
+                            <div className='bg-blue-600 pt-10 lg:flex lg:visible hidden float-left'>
+                            <Image src='div.svg' alt=''/>
                             </div>
                         </div>
                         <div className='lg:flex lg:p-20'>
@@ -63,10 +65,6 @@ function Know() {
                               </div>
                           </div>
                         </div>
-                        
-                        
-                        
-                        
                     </section>
                 )  
                 })}
@@ -79,7 +77,7 @@ function Know() {
           <section className='bg-blue-600 lg:pl-40 pl-10 flex'>
                <div className='lg:pt-2 pt-16'>
                 <Text className='pt-3 pb-3'><b className='text-white text-3xl lg:text-3xl' >SAME<br></br> INTERESTS?!</b></Text>
-                <button className="rounded-full bg-white p-3 mb-20 mt-2 hover:bg-black hover:text-white">Let's Catch Up!</button>
+                <button className="rounded-full bg-white p-3 mb-20 mt-2 hover:bg-black hover:text-white">Let&apos;s Catch Up!</button>
                 </div>
           </section>
 
