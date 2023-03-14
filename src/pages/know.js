@@ -74,7 +74,7 @@ function Know() {
 
 
 
-          <section className='bg-blue-600 lg:pl-40 pl-10 flex'>
+          <section className='bg-blue-600 lg:pl-40 pl-5 flex'>
                <div className='lg:pt-2 pt-16'>
                 <Text className='pt-3 pb-3'><b className='text-white text-3xl lg:text-3xl' >SAME<br></br> INTERESTS?!</b></Text>
                 <button className="rounded-full bg-white p-3 mb-20 mt-2 hover:bg-black hover:text-white">Let&apos;s Catch Up!</button>

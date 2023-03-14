@@ -24,7 +24,7 @@ function Contact() {
               <Text><b className='text-white flex text-center text-3xl lg:text-5xl' >NOW THAT YOU KNOW ME.<br/> LET&apos;S GET A COFFEE <br/> SOMETIME?</b></Text>
               </section>
 
-              <section className='lg:flex lg:pl-40 lg:pr-40 justify-between pl-10'>
+              <section className='lg:flex lg:pl-40 lg:pr-40 justify-between pl-5 pr-5'>
                 {contact.map((i) => {
                 return(
                     <section className='bg-yellow-900 lg:pb-20 w-80' key={i.id}>
@@ -37,7 +37,7 @@ function Contact() {
               </section>
 
 
-          <section className='bg-yellow-900 md:pl-40 md:pb-20 pl-10 flex'>
+          <section className='bg-yellow-900 md:pl-40 md:pb-20 pl-5 flex'>
                <div className='pt-2 pb-5'>
                   <Text className='pt-3'><b className='text-white text-1xl md:text-sm' >We&apos;re all done here!</b></Text>
                   <Text className='pb-3'><b className='text-white text-2xl md:text-3xl' >SEE YOU LATER 🐊</b></Text>
