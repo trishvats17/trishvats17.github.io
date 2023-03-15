@@ -41,7 +41,7 @@ export default function Nav(props) {
         <Modal.Body>
           <Link href={'/'}><Text className='bg-white p-10 text-center font-bold text-black text-2xl' id="modal-description">Home</Text></Link>
           <Link href={'/about'}><Text color='white' className='bg-teal-800 font-bold p-16 text-center text-2xl -mr-6 -ml-6 ' id="modal-description">About</Text></Link>
-          <Link href={'/work'}><Text color='white' className='bg-yellow-600 font-bold p-16 -mt-4 text-center text-2xl -mr-6 -ml-6 ' id="modal-description">Works</Text></Link>
+          <Link href={'/works'}><Text color='white' className='bg-yellow-600 font-bold p-16 -mt-4 text-center text-2xl -mr-6 -ml-6 ' id="modal-description">Works</Text></Link>
           <Link href={'/know'}><Text color='white' className='bg-blue-600 font-bold p-16 -mt-4 text-center text-2xl -mr-6 -ml-6 ' id="modal-description">Know More</Text></Link>
           <Link href={'/contact'}><Text color='white' className='bg-yellow-800 font-bold p-16 -mt-4 text-center text-2xl -mr-6 -ml-6 ' id="modal-description">Contact</Text></Link>
         </Modal.Body>
