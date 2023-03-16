@@ -23,7 +23,7 @@ export default function Home() {
                 <Card.Body>
                 <Text className=''><b className='pl-2'>{home1.name}</b></Text>
                 <Text className='pl-2'>{home1.tag}</Text>
-                <Text className=''><b className='flex absolute bottom-20 pl-2 text-2xl '>{home1.quote}</b></Text>
+                <Text className=''><b className='flex absolute bottom-20 pl-2 xl:pr-4 text-2xl '>{home1.quote}</b></Text>
                 <div className='absolute inset-x-3 bottom-14'> 
                   <Card.Divider/>
                   <Text className='font-poppins pl-2 absolute -bottom-7 text-sm'>{home1.location}</Text>
