@@ -31,13 +31,12 @@ export default function Nav(props) {
       </Button>
       <Modal
         scroll
-        fullScreen
+        fullScreen 
         closeButton
         aria-labelledby="modal-title"
         aria-describedby="modal-description"
         {...bindings}
       >
- 
         <Modal.Body>
           <Link href={'/'}><Text className='bg-white p-10 text-center font-bold text-black text-2xl' id="modal-description">Home</Text></Link>
           <Link href={'/about'}><Text color='white' className='bg-teal-800 font-bold p-16 text-center text-2xl -mr-6 -ml-6 ' id="modal-description">About</Text></Link>

@@ -16,9 +16,9 @@ export default function Home() {
       </Head>
 
       <main className="bg-slate-100	 font-poppins">
-        <section className='flex justify-center lg:pr-20 lg:pl-20 -mt-3'>
-          <section className='flex flex-wrap p-5 justify-center'>
-              <div className='flex flex-wrap justify-center -mb-3'>
+        <section className='flex justify-center lg:pr-20 lg:pl-20 -mt-3 '>
+          <section className='flex flex-wrap p-5 justify-center '>
+              <div className='flex flex-wrap justify-center -mb-3 xl:grid xl:grid-cols-3 '>
                 <Card isHoverable variant="bordered" css={{ w:340, h:340, margin:7 }} >
                 <Card.Body>
                 <Text className=''><b className='pl-2'>{home1.name}</b></Text>
