@@ -45,10 +45,10 @@ export default function Home() {
                     src={i.icon}
                     alt="Default Image"
                   />
-                  <div className='pt-4'>
+                  <div className='pt-4 absolute inset-x-3'>
                     <Text><b className='pl-2 text-white text-base'>{i.heading}</b></Text>
                     <div className='bg-white mt-2 mb-1'><Card.Divider/></div>
-                    <Text color='white' className='pl-2 text-xs'>{i.desc}</Text>
+                    <Text color='white' className='pl-2 pr-3 text-xs absolute'>{i.desc}</Text>
                   </div>
                 
                   </div>
