@@ -28,7 +28,7 @@ export const home5 = [
         heading: 'A Formal Paper',
         desc: 'Click to download my Resume!',
         color: 'bg-orange-600',
-        route: '/',
+        route: 'TrishabhVatsResume.pdf',
     },
     {
         id:'4',
@@ -53,8 +53,6 @@ export const aboutfronttext = { desc: '“DESIGN IS NOT JUST WHAT IT LOOKS LIKE 
 
 export const about1 = {
     main_heading:"I'M PRACTICALLY A FOSSIL IN THIS FIELD WITH MY WHOPPING TWO YEARS OF EXPERIENCE.",
-    heading:"How it Started?",
-    desc:"I Initially enrolled in college to pursue Mobile Application Development. but halfway through my senior year, I discovered that coding was not my passion. However, I remained determined to create digital products, and that's when I stumbled upon UX/UI design. Science then, I have been entirely self-taught and have gained 2 years of experience in this field.",
 }
 
 export const about = [
@@ -131,8 +129,8 @@ export const works = [
         workhead: "AVAIRSENSE'S WEBSITE, APP, AND BRANDING.",
         authorlogo: 'clients.svg',
         author: 'With Pandiraja T & Tamanna Sethia',
-        desc: "I Initially enrolled in college to pursue Mobile Application Development. but halfway through my senior year, I discovered that coding was not my passion. However, I remained determined to create digital products, and that's when I stumbled upon UX/UI design. Science then, I have been entirely self-taught and have gained 2 years of experience in this field.",
-        image: 'work1.png',
+        desc: "Being the sole designer for an early stage startup has been a challenging but highly rewarding experience that has provided me with an excellent foundation for my career growth. I had the opportunity to design the brand's Style Guidelines, as well as the UI components and UI kit for both the website and app. It allowed me to exercise my design skills in a dynamic and creative environment, where I had the freedom to take risks and explore innovative solutions. Overall, this experience has helped me develop a strong design sense.",
+        image: 'work1.svg',
         rolelogo: 'role.svg',
         role: 'My Role:',
         roledesc: 'Product Designer',
@@ -140,7 +138,7 @@ export const works = [
         project: 'Project Type:',
         projectdesc: 'Website, App, Social Media and Content Creation',
         button1name:'Visit Website',
-        button1link: '',
+        button1link: 'https://www.avairsense.com/',
         button2Visible:'', //write hidden if you want it hidden, else leave it blank
         button2name: 'App Under Dev',
         button2link: '', //no need to write here hidden or give the link if its visible
@@ -150,18 +148,18 @@ export const works = [
         id:'2',
         worklogo: 'eye.svg',
         workname: 'Website Redesign',
-        workhead: "THE MUCH NEEDED REVAMP OF -----",
+        workhead: "THE MUCH NEEDED REVAMP OF EPFO Website",
         authorlogo: 'clients.svg',
         author: 'Personal',
-        desc: "FanCrater is an ambitious social platform aimed at audiences of nearly every age. The goal: bring together notable people and groups with their most loyal, and vocal fans. It’s nothing like a traditional fan club—it’s an entire ecosystem of features that facilitate one-on-one interactions.",
-        image: 'work2.png',
+        desc: "The current website design appears outdated and lacks modern design elements. he website's navigation structure can be confusing and unintuitive. The website's responsiveness on different devices may not be optimal. he website may lack some useful features that could enhance the user experience, such as online forms, live chat support, and personalized dashboards.",
+        image: 'work2.svg',
         rolelogo: 'role.svg',
         role: 'My Role:',
         roledesc: 'UX and UI Redesign',
         projectlogo: 'project.svg',
         project: 'Project Type:',
         projectdesc: 'Website',
-        button1name:'View on Behance',
+        button1name:'Coming Soon',
         button1link: '',
         button2Visible:'hidden', //write hidden if you want it hidden, else leave it blank
         button2name: 'App Under Dev',
@@ -176,7 +174,7 @@ export const works = [
         authorlogo: 'clients.svg',
         author: 'Personal project',
         desc: "You can find the rest of my design portfolio here, which includes a range of personal projects, experimental designs, and capstone assignments from various courses I completed from 2019 to 2022. These works showcase my growth as a designer and highlight the diversity of my design capabilities. I am proud of my accomplishments, and I am excited to continue honing my skills and producing innovative designs in the future.",
-        image: 'work3.png',
+        image: 'work3.svg',
         rolelogo: 'role.svg',
         role: 'My Role:',
         roledesc: 'Multiple',
@@ -184,7 +182,7 @@ export const works = [
         project: 'Project Type:',
         projectdesc: 'Multiple',
         button1name:'Behance',
-        button1link: '',
+        button1link: 'https://www.behance.net/trishabhvats',
         button2Visible:'hidden', //write hidden if you want it hidden, else leave it blank
         button2name: 'App Under Dev',
         button2link: '', //no need to write here hidden or give the link if its visible
@@ -232,18 +230,18 @@ export const contact = [
         id:'1',
         social:'Email',
         desc:'monuroy021@gmail.com. Please approach me if you need any help, suggestions, or just wanna grab a coffee.',
-        linkifany:'',
+        linkifany:'mailto:monuroy021@gmail.com',
     },
     { 
         id:'2',
         social:'Behance',
         desc:'My Case Studies, Works and Moodboards. https://www.behance.net/trishabhvats ',
-        linkifany:'',
+        linkifany:'https://www.behance.net/trishabhvats',
     },
     { 
         id:'3',
         social:'LinkedIn',
-        desc:'My formal self and more. http://linkedin.com/in/trishabh-vats-6237a51a5',
-        linkifany:'',
+        desc:'My formal self and more. https://www.linkedin.com/in/trishabh-vats/',
+        linkifany:'https://www.linkedin.com/in/trishabh-vats/',
     }
 ]

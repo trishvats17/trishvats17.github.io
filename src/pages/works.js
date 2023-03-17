@@ -98,10 +98,10 @@ function Works() {
                   </div>
                   <div className='lg:text-end lg:w-36 flex flex-row lg:flex-col lg:pt-0 pt-10 justify-center'>
                     <div className='lg:pb-2 pb-20'>
-                      <Link href={i.button1link}><button className="p-2 mr-2 md:mr-0 rounded-full bg-white hover:bg-black hover:text-white text-sm "><b>{i.button1name}</b></button></Link>
+                      <Link href={i.button1link}><button className="p-2 mr-2 md:mr-0 rounded-full bg-white text-black hover:bg-black hover:text-white text-sm "><b>{i.button1name}</b></button></Link>
                     </div>
                     <div>
-                      <Link href={i.button2link}><button className={`${i.button2Visible} p-2 ml-2 lg:ml-0 rounded-full bg-white hover:bg-black hover:text-white text-sm`}><b>{i.button2name}</b></button></Link> 
+                      <Link href={i.button2link}><button className={`${i.button2Visible} p-2 ml-2 lg:ml-0 rounded-full text-white bg-slate-800 hover:bg-black hover:text-white text-sm`}><b>{i.button2name}</b></button></Link> 
                     </div>
                   </div>
                 </div> 
@@ -115,7 +115,7 @@ function Works() {
             <div className='pt-2'>
               <Text color='white'><b>Mesmerized?</b></Text>
               <Text className='pt-3 pb-3'><b className='text-white text-2xl lg:text-3xl' >LET&apos;S EXCHANGE<br></br> NUMBERS?</b></Text>
-              <button className="rounded-full bg-white p-3 mb-20 mt-2 hover:bg-black hover:text-white">Reach Out!</button>
+              <Link href={'/contact'}><button className="rounded-full bg-white p-3 mb-20 mt-2 hover:bg-black hover:text-white text-black">Reach Out</button></Link>
             </div>
           </section>
       

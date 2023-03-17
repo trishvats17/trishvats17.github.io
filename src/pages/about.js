@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Card, Text, Image} from "@nextui-org/react";
 import { about, about1, aboutfronttext } from '@/content';
 import Nav from './Nav';
+import Link from 'next/link';
 
 
 
@@ -71,7 +72,7 @@ function About() {
                <section className='bg-teal-900 lg:pl-40 pl-5 flex'>
                <div className='pt-2 '>
                 <Text><b className='text-white text-3xl lg:text-3xl' >IF MY EXPERIENCE RESONATES WITH YOU. </b></Text>
-                <button className="rounded-full bg-white p-3 mb-20 mt-2 hover:bg-black hover:text-white">Reach Out!</button>
+                <Link href={'/contact'}><button className="rounded-full bg-white p-3 mb-20 mt-2 hover:bg-black hover:text-white text-black">Reach Out</button></Link>
                 </div>
                </section>
         </main>
