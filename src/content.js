@@ -123,7 +123,7 @@ export const worklogo = [
 
 export const works = [
     {
-        id:'3',
+        id:'3', //id must be updated +1 for each as new data is added.
         worklogo: 'eye.svg',
         workname: 'Digital Identity',
         workhead: "AVAIRSENSE'S WEBSITE, APP, AND BRANDING.",
