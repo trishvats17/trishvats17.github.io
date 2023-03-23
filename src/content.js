@@ -141,7 +141,7 @@ export const works = [
         button1link: 'https://www.avairsense.com/',
         button2Visible:'', //write hidden if you want it hidden, else leave it blank
         button2name: 'App Under Dev',
-        button2link: '', //no need to write here hidden or give the link if its visible
+        button2link: 'https://play.google.com/store/apps/details?id=com.avairsense.beavair', //no need to write here hidden or give the link if its visible
 
     },
     {
