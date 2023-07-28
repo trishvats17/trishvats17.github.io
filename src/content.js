@@ -59,21 +59,21 @@ export const about = [
     {
         id:'0',
         heading:"How it Started?",
-        desc:"I Initially enrolled in college to pursue Mobile Application Development. but halfway through my senior year, I discovered that coding was not my passion. However, I remained determined to create digital products, and that's when I stumbled upon UX/UI design. Science then, I have been entirely self-taught and have gained 2 years of experience in this field.",
+        desc:"I Initially enrolled in college to pursue Mobile Application Development. but halfway through my senior year, I discovered that coding was not my passion. However, I remained determined to create digital products, and that's when I stumbled upon UX/UI design. Since then, I have been entirely self-taught and have gained 2 years of experience in this field.",
         hidden:'',//write hidden if image is hidden
         image:'about1.svg', //leave blank if image is hidden or put link or local file name with extension
     },
     {
         id:'1',
         heading:"How it’s going?",
-        desc:"I have gained practical experience through a few internships, including a UX Designer Internship at SAASPECT from July 2021 and a Product Designer Internship at Business Innovation Labs from October 2021. I am currently employed as a full-time Product Designer at AvairSense, where I am applying and expanding my skills.",
+        desc:"I have gained practical experience through a few internships, including 2 internships at SAASPECT, and Business Innovation Labs. I also worked at an early-stage startup called AvairSense where I was the sole designer. Currently, I am working as UI Designer at Lollypop Design Studio, where I am applying and expanding my skills.",
         hidden:'hidden',//write hidden if image is hidden
         image:'', //leave blank if image is hidden or put link or local file name with extension
     },
     {
         id:'2',
         heading:'Education',
-        desc:"I completed my Bachelor’s in Computer Applications with Mobile Application Development from Jain University, Bangalore in 2022. These 3 years changed my life and helped me where I am at the moment. Am I happy? I don’t know, but I have no regrets.   ",
+        desc:"I completed my Bachelor’s in Computer Applications with Mobile Application Development from Jain University, Bangalore in 2022. These 3 years changed my life and helped me to where I am at the moment. Am I happy? I don’t know, but I have no regrets.   ",
         hidden:'hidden',//write hidden if image is hidden
         image:'', //leave blank if image is hidden
     },
@@ -129,7 +129,7 @@ export const works = [
         workhead: "AVAIRSENSE'S WEBSITE, APP, AND BRANDING.",
         authorlogo: 'clients.svg',
         author: 'With Pandiraja T & Tamanna Sethia',
-        desc: "Being the sole designer for an early stage startup has been a challenging but highly rewarding experience that has provided me with an excellent foundation for my career growth. I had the opportunity to design the brand's Style Guidelines, as well as the UI components and UI kit for both the website and app. It allowed me to exercise my design skills in a dynamic and creative environment, where I had the freedom to take risks and explore innovative solutions. Overall, this experience has helped me develop a strong design sense.",
+        desc: "Being the sole designer for an early-stage startup has been a challenging but highly rewarding experience that has provided me with an excellent foundation for my career growth. I had the opportunity to design the brand's Style Guidelines, as well as the UI components and UI kit for both the website and app. It allowed me to exercise my design skills in a dynamic and creative environment, where I had the freedom to take risks and explore innovative solutions. Overall, this experience has helped me develop a strong design sense.",
         image: 'work1.svg',
         rolelogo: 'role.svg',
         role: 'My Role:',
@@ -140,7 +140,7 @@ export const works = [
         button1name:'Visit Website',
         button1link: 'https://www.avairsense.com/',
         button2Visible:'', //write hidden if you want it hidden, else leave it blank
-        button2name: 'App Under Dev',
+        button2name: 'beAvair App',
         button2link: 'https://play.google.com/store/apps/details?id=com.avairsense.beavair', //no need to write here hidden or give the link if its visible
 
     },
