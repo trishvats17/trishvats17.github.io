@@ -49,7 +49,7 @@ export const home5 = [
     
 ]
 
-export const aboutfronttext = { desc: '“DESIGN IS NOT JUST WHAT IT LOOKS LIKE AND FEELS LIKE. DESIGN IS HOW IT WORKS.” — STEVE JOBS' }
+export const aboutfronttext = { desc: 'UI DESIGNER AT LOLLYPOP DESIGN STUDIO' }
 
 export const about1 = {
     main_heading:"I'M PRACTICALLY A FOSSIL IN THIS FIELD WITH MY WHOPPING TWO YEARS OF EXPERIENCE.",
