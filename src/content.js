@@ -1,7 +1,7 @@
 export const home1 = {
     name: 'TRISHABH VATS',
-    tag: 'Product Designer at Avairsense.',
-    quote: 'Where design meets functionality and user experience takes center stage.',
+    tag: 'UI Designer at Lollypop Design Studio.',
+    quote: 'Where design meets functionality and interface takes center stage.',
     location: 'Bangalore, India.',
 }
 
@@ -10,7 +10,7 @@ export const home5 = [
         id:'1',
         icon: 'home1.svg',
         heading: 'About',
-        desc: 'Designing products that seamlessly blend form and function to enhance the user experience.',
+        desc: 'Designing products that seamlessly blend form and function to enhance the experience.',
         color: 'bg-teal-900',
         route: '/about',
     },
@@ -18,7 +18,7 @@ export const home5 = [
         id:'2',
         icon: 'home2.svg',
         heading: 'Works',
-        desc: 'Introducing innovative designs that elevate user experience and solve real-world problems.',
+        desc: 'Introducing innovative designs that elevate experience and solve real-world problems.',
         color: 'bg-yellow-600',
         route: '/works',
     },
@@ -26,7 +26,7 @@ export const home5 = [
         id:'3',
         icon: 'home3.svg',
         heading: 'A Formal Paper',
-        desc: 'Click to download my Resume!',
+        desc: 'Click to download my CV',
         color: 'bg-orange-600',
         route: 'TrishabhVatsResume.pdf',
     },
